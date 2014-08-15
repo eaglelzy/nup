@@ -1,0 +1,11 @@
+CC = gcc
+CFLAGS = -g -O2 -D_REENTRANT -Wall
+LIBS = ../libunp.a -lpthread
+RANLIB = ranlib
+
+LIBUNP_NAME = ../libunp.a
+
+LIB_OBJS = error.o wrapsock.o wrapunix.o
+
+CLEANFILES = core core.* *.core *.o temp.* *.out typescript* \
+		*.lc *.lh *.bsdi *.sparc *.uw
