@@ -41,6 +41,8 @@ AC_PROG_RANLIB
 
 AC_OUTPUT(Makefile
                  app/05/Makefile
+                 app/06/Makefile
+                 app/07/Makefile
                  app/08/Makefile
                  app/11/Makefile
                  libs/Makefile)

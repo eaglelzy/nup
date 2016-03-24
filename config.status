@@ -393,7 +393,7 @@ on `(hostname || uname -n) 2>/dev/null | sed 1q`
 "
 
 # Files that config.status was made for.
-config_files=" Makefile app/05/Makefile app/08/Makefile app/11/Makefile libs/Makefile"
+config_files=" Makefile app/05/Makefile app/06/Makefile app/07/Makefile app/08/Makefile app/11/Makefile libs/Makefile"
 config_commands=" depfiles"
 
 ac_cs_usage="\
@@ -532,6 +532,8 @@ do
     "depfiles") CONFIG_COMMANDS="$CONFIG_COMMANDS depfiles" ;;
     "Makefile") CONFIG_FILES="$CONFIG_FILES Makefile" ;;
     "app/05/Makefile") CONFIG_FILES="$CONFIG_FILES app/05/Makefile" ;;
+    "app/06/Makefile") CONFIG_FILES="$CONFIG_FILES app/06/Makefile" ;;
+    "app/07/Makefile") CONFIG_FILES="$CONFIG_FILES app/07/Makefile" ;;
     "app/08/Makefile") CONFIG_FILES="$CONFIG_FILES app/08/Makefile" ;;
     "app/11/Makefile") CONFIG_FILES="$CONFIG_FILES app/11/Makefile" ;;
     "libs/Makefile") CONFIG_FILES="$CONFIG_FILES libs/Makefile" ;;
